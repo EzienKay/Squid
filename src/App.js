@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.css'; // This Css component is not in use
+import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h2>
-        
-      </h2>
+      <Navbar />
     </div>
   );
 }
