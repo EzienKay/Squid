@@ -1,0 +1,60 @@
+.foot {
+    color: #ffffff;
+}
+
+.foot-top {
+    padding: 4.5rem 0 3rem 0;
+    background: #171B2A;
+}
+
+.foot-bottom {
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 1rem 0;
+    background: #282B38;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ul-kk {
+    list-style-type: none;
+    display: flex;   
+    padding-left: 0;
+}
+
+.ul-kk > li {
+    margin-right: 1.2rem;
+}
+
+.ul-service-kk, .ul-feature-kk {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.email-container-kk input[type=email] {
+    padding: 0.63rem 1.05em;
+    margin-top: 0.5rem;
+    font-size: 0.94rem;
+    border: none;
+    flex: 1;
+  }
+
+.email-container-kk button {
+    float: right;
+    padding: 0.63rem 0.88rem;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    background: #fc6421;
+    font-size: 0.94rem;
+    border: none;
+    cursor: pointer;
+  }
+
+.email-container-kk button:hover {
+    background: #ffa58f;
+  }
+
+  .footer-form-kk {
+    display: flex;
+  }
+

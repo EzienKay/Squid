@@ -1,0 +1,91 @@
+:root {
+    --border: 3px;
+    --color1: #6be89b;
+    --color2: #0076a5;
+    --from: 30deg;
+    --distance: 46%;
+  }
+  .section {
+    background-color: #fafafa;  
+    padding-block: 6rem;   
+  }
+  .testimonial-h {
+    font-size: 2.5rem;
+  }
+  .devider {
+    display: inline-block;
+    width: 120px;
+    height: 2px;    
+    background: linear-gradient(to right, transparent, #fc6421, transparent);
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .testimonial-p {
+    max-width: 90%;
+    margin: auto;
+    font-size: 1.1rem;
+  }
+  .caption {
+    color: #424242;
+    position: relative;
+    right: 0;
+    left: 0;    
+    max-width: 50%;
+    margin: auto;
+    font-size: 1.1rem;
+    text-align: center;
+    
+  }
+
+  .text001 {
+    /* background: #33353d; */
+    display: grid;
+    place-items: center;
+    /* height: 100vh; */
+    width: 70vw;
+    /* margin: 0; */
+    margin: auto;
+    margin-bottom: 30px;
+  }
+ 
+  .img-wrap {
+    position: relative;
+    padding: 30px;
+  }
+  .img-wrap::after {
+    content: '';
+    border-radius: 999px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: conic-gradient(
+      from var(--from),
+      var(--color1),
+      var(--color2) var(--distance),
+      transparent var(--distance)
+    );
+    -webkit-mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - var(--border)),
+      #fff calc(100% - var(--border) + 1px)
+    );
+    mask: radial-gradient(
+      farthest-side,
+      transparent calc(100% - var(--border)),
+      #fff calc(100% - var(--border) + 1px)
+    );
+  }
+  img {
+    border-radius: 999px;
+    display: block;
+    width: calc(100vw - 80px);
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .carousel-indicators [data-bs-target] {
+    background-color: #ffa58f;
+  }
