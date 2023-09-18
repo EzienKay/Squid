@@ -34,7 +34,7 @@ const Navbar = () => {
                     </li>
                  </ul>
                 <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-primary">SIGN IN</button>
+                <button type="button" class="btn btn-signin">SIGN IN</button>
                 </div>
             </div>
                 </div>

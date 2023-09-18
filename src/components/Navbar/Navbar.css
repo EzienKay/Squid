@@ -1,3 +1,21 @@
 li {
     margin-left: 25px;
+    
+}
+
+ul li {
+    cursor: pointer;
+    
+}
+
+
+.navbar-nav .nav-item .nav-link.active:hover {
+    color: #FC6421; /* Text color on hover */
+    
+}
+
+
+
+.btn.btn-signin:hover {
+    color: #FC6421; /* Text color on hover */
 }
