@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Feature from './components/Homepage/Feature/Feature';
+import Trade from './components/Homepage/Trade/Trade';
+import Trend from './components/Homepage/Trend/Trend';
 
 function App() {
   return (
     <div className="App">
-      <h2>
-        
-      </h2>
+      <Trend />
+      <Feature />
+      <Trade />
     </div>
   );
 }
