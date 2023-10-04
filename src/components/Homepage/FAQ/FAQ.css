@@ -1,9 +1,9 @@
-.FAQ {
-    padding-block: 6rem;
+.FAQ, .TAW {
+    padding: 6rem 1rem;
 }
 
 .adion {
-    width: 60%;
+    max-width: 60rem;
     margin-inline: auto;
     margin-block: 50px;
 }

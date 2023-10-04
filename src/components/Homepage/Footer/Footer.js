@@ -10,7 +10,6 @@ const Footer = () => {
                 <Row>
                     <Col sm>
                         <div>
-                            <img src="" />
                             <h2>Squid</h2>
                             <p>Squid is a complete peer-to-peer exchange platform to buy or sell Money.</p>
                             <ul className="ul-kk">

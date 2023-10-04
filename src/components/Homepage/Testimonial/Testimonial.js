@@ -4,7 +4,7 @@ import "./Testimonial.css"
 
 const Testimonial = () => {
   return (
-    <section className='section' >
+    <section className='section' id='testimonial' >
         <Carousel.Caption className="caption" >                        
             <h2 className="testimonial-h">Testimonial</h2>
             <span className="devider"></span>
@@ -12,7 +12,7 @@ const Testimonial = () => {
         </Carousel.Caption> 
 
         <Carousel>
-            <Carousel.Item >                 
+            <Carousel.Item>                 
                    
                 <div className="text001" >
                     <div id="wrap" class="img-wrap">
