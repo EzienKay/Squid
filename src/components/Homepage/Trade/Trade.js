@@ -187,7 +187,7 @@ const Trade = () => {
           <Row>
             {cardsData.map((card, index) => (
               <Col xs={12} md={4} className="mb-3" key={index}>
-                <Card
+                <Card className='kaycard'
                   onMouseEnter={() => handleCardHover(index)}
                   onMouseLeave={handleCardLeave}
                 >
