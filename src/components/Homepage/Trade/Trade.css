@@ -1,7 +1,7 @@
 .custom-card1 {
   border: none; 
   background-color: white;
-  padding: 8% 0; 
+  padding: 6rem 1rem; 
   color: #424242;
 }
 
@@ -51,7 +51,7 @@
 .custom-card2 {
   border: none; 
   background-color: #FAFAFA;
-  padding: 9% 0; 
+  padding: 6rem 1rem; 
   color: #424242;
 }
 
@@ -119,6 +119,7 @@
 
 .card  {
   margin-bottom: 3%; 
+  align-items: center; /* kay added this */
 }
 
 .btn-center {
@@ -141,7 +142,7 @@
 .custom-card3 {
   border: none; 
   background-color: white;
-  padding: 8% 0; 
+  padding-top: 6rem; 
   color: #424242;
 }
 
@@ -209,7 +210,7 @@ p, h3 {
   bottom: 0;
   background-color: #cfc9c7; 
   opacity: 0; 
-  transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease;   
 }
 
 .card-body-hovered:hover::after {

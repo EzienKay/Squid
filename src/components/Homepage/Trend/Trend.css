@@ -1,9 +1,8 @@
 .custom-cardt {
   border: none;
   background-color: #fafafa;
-  padding-top: 5%;
+  padding: 6rem 1rem;
   color: #424242;
-  padding-bottom: 7%;
 }
 
 .heading {
@@ -71,9 +70,8 @@ margin-top: 3%;
 .custom-cardt2 {
   border: none;
   background-color: white;
-  padding-top: 6%;
+  padding: 6rem 1rem;
   color: #424242;
-  margin-bottom: 6%;
 }
 
 .logo1 {

@@ -199,7 +199,7 @@ const Trade = () => {
                       <Image
                         src={card.imageSrc}
                         roundedCircle
-                        width="400px"
+                        width="350px"
                         alt={`${card.name}'s Image`}
                       />
                       {hoveredCard === index && (
