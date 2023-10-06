@@ -21,7 +21,9 @@
 .home-banner {
     position: relative;
     padding: 150px 0;
-    background-image: url('https://images.pexels.com/photos/6120251/pexels-photo-6120251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');    
+    /* background-image: url('https://images.pexels.com/photos/6120251/pexels-photo-6120251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');     */
+    background-image: url('./HomeImage/bckimg.png');     
+    /* background-image: linear-gradient(155deg, #fc6421, #8B5AF6); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,7 +31,7 @@
     color: #ffffff;
 }
 
-.home-banner::before {
+/* .home-banner::before {
     position: absolute;
     content: '';
     width: 100%;
@@ -38,10 +40,11 @@
     top: 0;
     background: rgba(0, 0, 0, 0.49);
     z-index: -1;
-}
+} */
 
 .home-col1 {
     margin-block: auto;
+    padding-inline: 4rem;
 }
 
 .home-title {

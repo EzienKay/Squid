@@ -11,7 +11,7 @@ const Trend = () => {
     setShowMore(!showMore);
   };
   return (
-    <section>
+    <section id='trend'>
       <div className='custom-cardt'>
         <div className='heading'>
           <h3 className='text'>Market Trend</h3>

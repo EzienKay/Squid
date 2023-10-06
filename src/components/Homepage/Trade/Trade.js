@@ -102,7 +102,7 @@ const Trade = () => {
   ];
 
   return (
-    <section className="custom-card1">
+    <section id='trade' className="custom-card1">
       <div className="heading1">
         <h3 className='text'>How P2p Work</h3>
         <span className='line'></span>

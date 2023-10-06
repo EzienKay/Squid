@@ -16,7 +16,7 @@ const Home = () => {
                                 <Nav.Link href="#home">Home</Nav.Link>
                                 <Nav.Link href="#trend">Trend</Nav.Link>                    
                                 <Nav.Link href="#feature">Feature</Nav.Link>                    
-                                <Nav.Link href="#how-to-exchange">How To Exchange</Nav.Link>                    
+                                <Nav.Link href="#trade">How To Exchange</Nav.Link>                    
                                 <Nav.Link href="#testimonial">Testimonial</Nav.Link>                    
                                 <Nav.Link href="#faq">FAQ</Nav.Link>                    
                             </Nav>

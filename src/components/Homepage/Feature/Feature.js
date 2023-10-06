@@ -72,7 +72,7 @@ const featureData = [
 
 const Features = () => {
   return (
-    <section className='custom-card'>
+    <section id='feature' className='custom-card'>
       <div className='heading'>
       <h3 className='text'>P2p Cryptocurrency Exchange Features</h3>
       <span className='line'></span>
