@@ -36,7 +36,7 @@ const Trend = () => {
         </Container>
         <div className="text-center btn-container">
       <button
-        className={`btn btn-custom`}
+        className={`form-btn`}
         onClick={toggleButton}
       >
         {showMore ? 'Show Less Markets' : 'View More Markets'}

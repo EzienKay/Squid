@@ -20,14 +20,14 @@
   margin-top: 20px;
 }
 
-.btn-custom {
+/* .btn-custom {
   position: relative;
   color: white;
   font-size: large;
   background-color: #fc6520;
   padding: 10px 20px;
   text-transform: capitalize;
-}
+} */
 
 .btn-custom:hover,
 .btn-custom:focus {

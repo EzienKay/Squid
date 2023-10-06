@@ -33,7 +33,7 @@ const trades = [
     image: Get,
     title: 'Place An Order',
     label:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum natus obcaecati vitae neque cumque dolorem ut quos modi tenetur delectus?',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum natus obcaecati vitae neque cumque dolorem ut quos modi?',
   },
 ];
 

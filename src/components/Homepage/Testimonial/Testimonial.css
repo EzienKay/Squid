@@ -78,7 +78,7 @@
       #fff calc(100% - var(--border) + 1px)
     );
   }
-  img {
+  .img-carousel {
     border-radius: 999px;
     display: block;
     width: calc(100vw - 80px);

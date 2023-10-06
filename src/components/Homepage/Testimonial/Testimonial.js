@@ -16,7 +16,7 @@ const Testimonial = () => {
                    
                 <div className="text001" >
                     <div id="wrap" class="img-wrap">
-                            <img src="https://picsum.photos/id/823/720" width="360" height="360" alt=""/>
+                            <img className='img-carousel' src="https://picsum.photos/id/823/720" width="360" height="360" alt=""/>
                     </div>
                 </div>
                     <Carousel.Caption className="caption" >
@@ -29,7 +29,7 @@ const Testimonial = () => {
             <Carousel.Item >
                 <div className="text001" >
                     <div id="wrap" class="img-wrap">
-                            <img src="https://picsum.photos/id/823/720" width="360" height="360" alt=""/>
+                            <img className='img-carousel' src="https://picsum.photos/id/823/720" width="360" height="360" alt=""/>
                     </div>
                 </div>
                     <Carousel.Caption className="caption" >
@@ -42,7 +42,7 @@ const Testimonial = () => {
             <Carousel.Item >
                 <div className="text001" >
                     <div id="wrap" class="img-wrap">
-                            <img src="https://picsum.photos/id/823/720" width="360" height="360" alt=""/>
+                            <img className='img-carousel' src="https://picsum.photos/id/823/720" width="360" height="360" alt=""/>
                     </div>
                 </div>
                     <Carousel.Caption className="caption" >
