@@ -1,7 +1,8 @@
 import "./Home.css";
-import { Button, Col, Container, Form, Nav, Navbar, Row, Tab, Tabs, } from "react-bootstrap";
+import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import taw from "./HomeImage/taw-img.png";
-
+import ezienlogo1 from "../../../asset/ezienlogo1.png";
+import Filter from "./Filter";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
         <header>
             <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand href="#home">Squid</Navbar.Brand>
+                    <Navbar.Brand className="nav-logo" href="#home"> <img className="logo-img" src={ezienlogo1} alt="Ezien logo" /> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />                
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto"  defaultActiveKey="#home">
@@ -31,9 +32,9 @@ const Home = () => {
                 <Col className="home-col1" >
                     <h1 className="home-title">Fast, Secure Money Exchange</h1>
                     <p className="home-content">Most Popular Peer To Peer Money Exchange Platform.</p>
-                    <Button className="form-btn" variant="primary">register</Button>
+                    <Button className="form-btn reg-btn" variant="primary">register</Button>
                 </Col>
-                <Col className="home-col2">
+                {/* <Col className="home-col2">
                     <Tabs variant="pills" defaultActiveKey="buy">
                         <Tab eventKey="buy" title="buy" className="buy-tab">
 
@@ -81,10 +82,13 @@ const Home = () => {
                         </Tab>                                              
                     </Tabs>              
                     
-                </Col>
+                </Col> */}
+                <Filter />
             </Row>      
         </Container>
     </div> 
+
+    
 
     <section className="TAW">
         <div className="caption" >                        

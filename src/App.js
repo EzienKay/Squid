@@ -7,17 +7,20 @@ import Testimonial from './components/Homepage/Testimonial/Testimonial';
 import Feature from './components/Homepage/Feature/Feature';
 import Trade from './components/Homepage/Trade/Trade';
 import Trend from './components/Homepage/Trend/Trend';
+import DashNav from './components/DashNav/DashNav';
 
 function App() {
   return (
     <div className="App"> 
-      <Home /> 
+      {/* <Home /> 
       <Trend />
       <Feature />
       <Trade />    
       <Testimonial />
       <FAQ />
-      <Footer />
+      <Footer /> */}
+
+      <DashNav />
       
     </div>
   );
