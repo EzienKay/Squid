@@ -1,0 +1,223 @@
+.container {
+  max-width: max-content;
+  padding: 35px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  column-gap: 20px;
+}
+
+.content h2 {
+  color: #fc6620;
+}
+
+.main-info {
+  padding-left: 20px;
+  flex: 6;
+} */
+
+ .item {
+  margin-bottom: 20px;
+} 
+
+.button-container {
+  text-align: left;
+}
+
+.button img {
+  width: 10%;
+}
+
+.button-label {
+  font-size: 1em;
+  margin-left: 0.6rem;
+}
+
+.button {
+  background-color: #fff;
+  border: 1px solid #fff;
+  height: 46px;
+  width: 225px;
+  color: #333;
+  transition: background-color 0.3s;
+  border-radius: 4%;
+}
+
+.button.active {
+  background-color: #b8b4b4;
+  border: 1px solid #b8b4b4;
+  width: 65%;
+}
+
+
+.sellers {
+  margin-top: 10px;
+  border: 1px solid #d8d8d8;
+  background-color: white;
+}
+
+.head {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.card {
+  padding: 20px;
+  border-top: 0;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+
+.act-fee {
+  display: flex;
+  border: 1px solid black;
+}
+
+.table-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.more-content {
+  display: flex;
+  border: 1px solid #f0d1c2;
+  margin-top: 50px;
+  width: auto;
+}
+
+.content-logo {
+  background-color: #f0d1c2;
+  border: 1px solid #f0d1c2;
+  padding: 30px;
+  width: 19%;
+}
+
+.more-contenx {
+  display: flex;
+  margin-top: 20px;
+  padding: 19px;
+  width: auto;
+}
+
+.card-in {
+  display: flex;
+  align-items: center;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.small-text {
+  margin: 0;
+} 
+
+.content-btn1 {
+  background-color: #285d74;
+  color: white;
+  border: 1px solid #d8d8d8;
+  width: 6em;
+  height: 2em;
+  border-radius: 7px;
+} 
+
+.content-btn {
+  background-color: #e3bca9;
+  color: white;
+  border: 1px solid #f0d1c2;
+  width: 10em;
+  border-radius: 7px;
+}
+
+.content-btn2 {
+  color: black;
+  border: 1px solid #d8d8d8;
+  width: 10em;
+  height: 2em;
+} */
+
+nav {
+  background-color: #fbfbfb;
+}
+
+.box {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.card-tex {
+  display: flex;
+  align-items: center;
+  padding: 18px;
+  width: 200%;
+  gap: 10px;
+}
+
+.refer-text {
+  width: 100%;
+}
+.card-tex p {
+  margin: 0;
+}
+
+.card-tex p:first-of-type {
+  font-weight: bold;
+  padding-bottom: 3px;
+} 
+
+.refer {
+  border: 1px solid #ddd;
+  margin-top: 10%;
+  display: flex;
+}
+
+.ref-logo {
+  border: 1px solid #ddd;
+  background-color: #dfb8a7;
+  padding: 31px;
+  width: 108px;
+}
+
+.refer-btn1 {
+  background-color: #285d74;
+  color: white;
+  border: 1px solid #d8d8d8;
+  width: 160px;
+  height: 2em;
+  border-radius: 7px;
+} 
+
+ .last-section {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+} 
+
+.last-content {
+  padding: 10%;
+}
+
+
+

@@ -1,5 +1,6 @@
 import "./Home.css";
 import { Button, Col, Container, Form, Nav, Navbar, Row, Tab, Tabs, } from "react-bootstrap";
+import { Link } from 'react-router-dom'
 import taw from "./HomeImage/taw-img.png";
 
 
@@ -76,7 +77,8 @@ const Home = () => {
                                 <Form.Select size="lg">
                                     <option>Nigeria</option>
                                 </Form.Select> 
-                                <Button className="form-btn" variant="primary">find offer</Button>
+                                <Link to='/buysell'>
+                                <Button className="form-btn" variant="primary">find offer</Button></Link>
                             </Form> 
                         </Tab>                                              
                     </Tabs>              
