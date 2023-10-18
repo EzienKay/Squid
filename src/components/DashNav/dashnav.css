@@ -1,27 +1,3 @@
-.dash-nav .bg-body-tertiary {
-    border-bottom: 1px solid #d8d8d8;
-    transition: box-shadow .25s ease-in-out;
-}
-.filter-sidebar {    
-    background: #F8F9FA;
-    width: 26.5%;
-    overflow-y: auto;
-    overflow-x: hidden;
-    height: 100vh;
-    padding: 100px 0;    
-}
-
-.filter-sidebar .home-col2 {
-    background: none;
-    padding: 1.2rem;
-    border-radius: none;
-    box-shadow: none;
-}
-
-.filter-sidebar .home-col2 .nav-pills {
-    justify-content: center;    
-}
-
 .dropdown-div {
     display: flex;
     justify-content: center;
@@ -38,3 +14,49 @@
     --bs-btn-disabled-bg: #fc6421; 
     --bs-btn-disabled-border-color: #fc6421; 
 } 
+
+.dash-nav .bg-body-tertiary {
+    border-bottom: 1px solid #d8d8d8;
+    transition: box-shadow .25s ease-in-out;
+}
+
+.filter-sidebar {
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 71px;
+    left: 0;
+    background-color: #F8F9FA;;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* .filter-sidebar {    
+    background: #F8F9FA;
+    width: 26.5%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    padding: 100px 0;    
+} */
+
+.filter-sidebar .nav-pills .nav-link.active {
+    background-color: transparent;
+    color: #fc6421;
+}
+
+.filter-sidebar .home-col2 {
+    background: none;
+    padding: 1.2rem;
+    border-radius: none;
+    box-shadow: none;
+}
+
+.filter-sidebar .home-col2 .nav-pills {
+    justify-content: center;    
+}
+
+.buysell-kay {
+    margin-left: 25%;
+  }

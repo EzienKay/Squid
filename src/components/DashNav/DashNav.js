@@ -2,6 +2,7 @@ import { Button, Container, Dropdown, Nav, Navbar } from "react-bootstrap"
 import Filter from "../Homepage/Home/Filter"
 import "./dashnav.css";
 import ezienlogo1 from "../../asset/ezienlogo1.png";
+import BuySell from "../BuySell/BuySell";
 
 
 const DashNav = () => {
@@ -86,8 +87,13 @@ const DashNav = () => {
                         </Navbar.Collapse>                
                 </Container>
             </Navbar>
-            <div className="filter-sidebar">
-                <Filter />
+            <div className="in-content" >
+                <div className="filter-sidebar">
+                    <Filter />                
+                </div>
+                <div className="buysell-kay">
+                    <BuySell />
+                </div>
             </div>
         </div>    
     </>

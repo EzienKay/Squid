@@ -3,11 +3,17 @@ import { Button, Col, Container, Nav, Navbar, Row } from "react-bootstrap";
 import taw from "./HomeImage/taw-img.png";
 import ezienlogo1 from "../../../asset/ezienlogo1.png";
 import Filter from "./Filter";
+import Trend from "../Trend/Trend";
+import Features from "../Feature/Feature";
+import Trade from "../Trade/Trade";
+import Testimonial from "../Testimonial/Testimonial";
+import FAQ from "../FAQ/FAQ";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
     <div id="home">
-        <header>
+        {/* <header>
             <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
                 <Container>
                     <Navbar.Brand className="nav-logo" href="#home"> <img className="logo-img" src={ezienlogo1} alt="Ezien logo" /> </Navbar.Brand>
@@ -25,7 +31,7 @@ const Home = () => {
                         </Navbar.Collapse>                
                 </Container>
             </Navbar>
-        </header>
+        </header> */}
     <div className="home-banner">
         <Container>
             <Row>
@@ -33,62 +39,11 @@ const Home = () => {
                     <h1 className="home-title">Fast, Secure Money Exchange</h1>
                     <p className="home-content">Most Popular Peer To Peer Money Exchange Platform.</p>
                     <Button className="form-btn reg-btn" variant="primary">register</Button>
-                </Col>
-                {/* <Col className="home-col2">
-                    <Tabs variant="pills" defaultActiveKey="buy">
-                        <Tab eventKey="buy" title="buy" className="buy-tab">
-
-                            <Form action="" className="home-form" >
-                                <Form.Label>Buy</Form.Label>
-                                <Form.Select size="lg">
-                                    <option>Dollar</option>
-                                    <option>Euro</option>
-                                    <option>Pounds</option>
-                                </Form.Select>
-                                <br />
-                                <Form.Label>Payment Method</Form.Label>
-                                <Form.Select size="lg">
-                                    <option>Payment Method</option>
-                                </Form.Select> 
-                                <br />
-                                <Form.Label>Choose Country</Form.Label>
-                                <Form.Select size="lg">
-                                    <option>Nigeria</option>
-                                </Form.Select> 
-                                <Button className="form-btn" variant="primary">find offer</Button>
-                            </Form> 
-
-                        </Tab> 
-                        <Tab eventKey="sell" title="sell">                            
-                            <Form action="" className="home-form" >
-                                <Form.Label>Sell</Form.Label>
-                                <Form.Select size="lg">
-                                    <option>Dollar</option>
-                                    <option>Euro</option>
-                                    <option>Pounds</option>
-                                </Form.Select>
-                                <br />
-                                <Form.Label>Payment Method</Form.Label>
-                                <Form.Select size="lg">
-                                    <option>Payment Method</option>
-                                </Form.Select> 
-                                <br />
-                                <Form.Label>Choose Country</Form.Label>
-                                <Form.Select size="lg">
-                                    <option>Nigeria</option>
-                                </Form.Select> 
-                                <Button className="form-btn" variant="primary">find offer</Button>
-                            </Form> 
-                        </Tab>                                              
-                    </Tabs>              
-                    
-                </Col> */}
+                </Col>                
                 <Filter />
             </Row>      
         </Container>
-    </div> 
-
-    
+    </div>    
 
     <section className="TAW">
         <div className="caption" >                        
@@ -136,6 +91,12 @@ const Home = () => {
             </Row>
         </Container>
     </section>
+    <Trend />
+    <Features />
+    <Trade />    
+    <Testimonial />
+    <FAQ />
+    <Footer />
     </div>    
   )
 }

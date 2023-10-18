@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-// import CarouselImage from './Testimages/CarouselImage.png';
 import "./Testimonial.css"
 
 const Testimonial = () => {
