@@ -5,7 +5,8 @@
 
 .buy-dropdown .btn-success, .sell-dropdown .btn-success {
     margin-inline: 1rem;    
-    --bs-btn-bg: #fc6421; 
+    --bs-btn-bg: none; 
+    --bs-btn-color: #000000;
     --bs-btn-border-color: #fc6421;     
     --bs-btn-hover-bg: #fe6c2d;
     --bs-btn-hover-border-color: #ffa58f;    
