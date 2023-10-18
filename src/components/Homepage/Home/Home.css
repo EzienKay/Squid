@@ -1,9 +1,9 @@
 @media (min-width: 992px) {
-    .navbar-nav {
-    /* padding-left: 25%; */
+    .navbar-nav {    
     margin-inline: auto;  
     font-size: 1rem;
-    font-weight: 500;  
+    font-weight: 500; 
+    align-items: center; 
     }
     .nav-link {
         margin-inline: 0.8rem;

@@ -15,6 +15,11 @@
     --bs-btn-disabled-border-color: #fc6421; 
 } 
 
+.buy-dropdown .btn, .sell-dropdown .btn {
+    --bs-btn-padding-y: 0.2rem;
+}
+
+
 .dash-nav .bg-body-tertiary {
     border-bottom: 1px solid #d8d8d8;
     transition: box-shadow .25s ease-in-out;
