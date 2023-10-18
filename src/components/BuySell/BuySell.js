@@ -147,6 +147,21 @@ const BuySell = () => {
             </div>
           </section>
 
+          <div className='refer'>
+            <div className='ref-logo'>
+              <img src={Hand} alt="bithand" width={50} />
+            </div>
+            <div className='card-tex'>
+              <div className='refer-text'>
+                <p>Refer your friends</p>
+                <p>Recommend Squid and get rewarded when your friends and family buy and sell Bitcoin. <br/> Sign up to start earning.Learn more </p>
+              </div>
+              <div>
+              <button className='refer-btn1'>Get Started</button>
+              </div>
+            </div>
+          </div>
+
           <section>
             <h3>Showing Offers Worldwide</h3>
             <div className='sellers'>
@@ -190,53 +205,13 @@ const BuySell = () => {
                         <div className='card-in'>
                           <div className='card-text'>
                             <span className='small-text'>Min sale: 10,000 NGN</span>
-                            <span className='small-text'>Max sale: 40,000,000 NGN</span>
+                            <span className='small-text'>Max sale: 41,000,000 NGN</span>
                           </div>
                           <button className='content-btn1'>sell</button>
                         </div>
                       </div>
                     </div>
-                  </Card>
-
-                  <Card>
-                    <div>
-                      <div className='card-info'>
-                        <div>
-                          <p>Paul</p>
-                          <p>Numbers of likes</p>
-                        </div>
-                        <div>
-                          <p>Other Bank Transfer</p>
-                          <p>Fast payment assured</p>
-                        </div>
-                        <div>
-                          <p>3 mins</p>
-                        </div>
-                        <div>
-                          <p>39,962,510 NGN</p>
-                          <p>1 USD = 1.4 USD of BTC</p>
-                        </div>
-                      </div>
-                      <div className='card-info'>
-                        <div>
-                          <p>last seen</p>
-                        </div>
-                        <div>
-                          <p>No third party</p>
-                        </div>
-                        <div>
-                          <p>new offer</p>
-                        </div>
-                        <div className='card-in'>
-                          <div className='card-text'>
-                            <span className='small-text'>Min sale: 10,000 NGN</span>
-                            <span className='small-text'>Max sale: 40,000,000 NGN</span>
-                          </div>
-                          <button className='content-btn1'>sell</button>
-                        </div>
-                      </div>
-                    </div>
-                  </Card>
+                  </Card>               
                 </div>
               </div>
             </div>
@@ -244,24 +219,7 @@ const BuySell = () => {
               <button className='content-btn'>Load More Offers</button>
               <button className='content-btn2'>Create an Offer</button>
             </div>
-          </section>
-
-
-
-          <div className='refer'>
-            <div className='ref-logo'>
-              <img src={Hand} alt="bithand" width={50} />
-            </div>
-            <div className='card-tex'>
-              <div className='refer-text'>
-                <p>Refer your friends</p>
-                <p>Recommend Squid and get rewarded when your friends and family buy and sell Bitcoin. <br/> Sign up to start earning.Learn more </p>
-              </div>
-              <div>
-              <button className='refer-btn1'>Get Started</button>
-              </div>
-            </div>
-          </div>
+          </section>         
 
 
           <section className='last-section'>

@@ -170,7 +170,7 @@ nav {
 
 .refer {
   border: 1px solid #ddd;
-  margin-top: 10%;
+  margin-block: 8rem;
   display: flex;
 }
 
