@@ -130,8 +130,8 @@ const BuySell = () => {
                               <span className='small-text'>{activeButtonInfo.minSale}</span>
                               <span className='small-text'>{activeButtonInfo.maxSale}</span>
                             </div>
-                            <button>{activeButtonInfo.btton}</button>
-                            {/* <button className='content-btn1'>sell</button> */}
+                            <button className='content-btn1' >{activeButtonInfo.button}</button>
+                            {/* <button className='content-btn1'>sell</button> */} 
                           </div>
                         </div>
                       </div>
