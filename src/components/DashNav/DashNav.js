@@ -48,7 +48,7 @@ const DashNav = () => {
         <div className="dash-nav">            
             <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand className="nav-logo" href="#home"> <img className="logo-img" src={ezienlogo1} alt="Ezien logo" /> </Navbar.Brand>
+                    <Navbar.Brand className="nav-logo" href="/"> <img className="logo-img" src={ezienlogo1} alt="Ezien logo" /> </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />                
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto"  defaultActiveKey="#home"> 

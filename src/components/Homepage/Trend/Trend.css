@@ -19,14 +19,6 @@
   margin-top: 20px;
 }
 
-/* .btn-custom {
-  position: relative;
-  color: white;
-  font-size: large;
-  background-color: #fc6520;
-  padding: 10px 20px;
-  text-transform: capitalize;
-} */
 
 .btn-custom:hover,
 .btn-custom:focus {
@@ -49,21 +41,6 @@
 .e {
   font-weight: bold;
 }
-/* .btn-container {
-margin-top: 3%;
-}
-.btn-custom {
-  color: white;
-  font-size: large;
-  background-color: #fc6520;
-  padding: 10px 20px;
-}
-
-.btn-custom:hover,
-.btn-custom:focus {
-  color: white;
-  background-color: #fc6520;
-} */
 
 /* second content */
 

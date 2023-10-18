@@ -11,8 +11,7 @@
 
 .main-info {
   padding-inline: 40px;
-  margin-block: 7rem;
-  /* flex: 6; */
+  margin-block: 7rem;  
 } 
 
  .item {
@@ -62,10 +61,6 @@
   padding: 15px;
 }
 
-/* .card-edt {
-  padding: 20px;
-  border-top: 0;
-} */
 .card-info {
   display: flex;
   justify-content: space-between;
@@ -152,14 +147,6 @@
 nav {
   background-color: #fbfbfb;
 }
-
-/* .box {
-  background-color: #f8f8f8;
-  border: 1px solid #ddd;
-  padding: 20px;
-  margin: 10px;
-  text-align: center;
-} */
 
 .card-tex {
   display: flex;

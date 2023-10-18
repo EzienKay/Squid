@@ -10,13 +10,17 @@ import Testimonial from "../Testimonial/Testimonial";
 import FAQ from "../FAQ/FAQ";
 import Footer from "../Footer/Footer";
 
+
+
 const Home = () => {
   return (
     <div id="home">
-        {/* <header>
-            <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
+        <header>            
+                <Navbar fixed="top" expand="lg" className="bg-body-tertiary">
                 <Container>
-                    <Navbar.Brand className="nav-logo" href="#home"> <img className="logo-img" src={ezienlogo1} alt="Ezien logo" /> </Navbar.Brand>
+                    <Navbar.Brand className="nav-logo" href="/">                    
+                        <img className="logo-img" src={ezienlogo1} alt="Ezien logo" />                   
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />                
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="me-auto"  defaultActiveKey="#home">
@@ -26,12 +30,12 @@ const Home = () => {
                                 <Nav.Link href="#trade">How To Exchange</Nav.Link>                    
                                 <Nav.Link href="#testimonial">Testimonial</Nav.Link>                    
                                 <Nav.Link href="#faq">FAQ</Nav.Link>                    
-                            </Nav>
-                            <Button variant="light">Sgin In</Button>
+                            </Nav>                           
+                                <Button variant="light">Sgin In</Button>                            
                         </Navbar.Collapse>                
                 </Container>
             </Navbar>
-        </header> */}
+        </header>
     <div className="home-banner">
         <Container>
             <Row>
