@@ -87,14 +87,17 @@ const DashNav = () => {
                         </Navbar.Collapse>                
                 </Container>
             </Navbar>
-            <div className="in-content" >
-                <div className="filter-sidebar">
-                    <Filter />                
-                </div>
-                <div className="buysell-kay">
-                    <BuySell />
-                </div>
-            </div>
+            <Container>
+                <div className="in-content" >
+                    <div className="filter-sidebar">
+                        <Filter />                
+                    </div>
+                    <div className="buysell-kay">
+                        <BuySell />
+                    </div>
+                </div>    
+            </Container>
+            
         </div>    
     </>
   )
