@@ -33,7 +33,7 @@ const trades = [
     image: Get,
     title: 'Place An Order',
     label:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum natus obcaecati vitae neque cumque dolorem ut quos modi tenetur delectus?',
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum natus obcaecati vitae neque cumque dolorem ut quos modi?',
   },
 ];
 
@@ -102,7 +102,7 @@ const Trade = () => {
   ];
 
   return (
-    <section className="custom-card1">
+    <section id='trade' className="custom-card1">
       <div className="heading1">
         <h3 className='text'>How P2p Work</h3>
         <span className='line'></span>
@@ -187,7 +187,7 @@ const Trade = () => {
           <Row>
             {cardsData.map((card, index) => (
               <Col xs={12} md={4} className="mb-3" key={index}>
-                <Card
+                <Card className='kaycard'
                   onMouseEnter={() => handleCardHover(index)}
                   onMouseLeave={handleCardLeave}
                 >
@@ -199,7 +199,7 @@ const Trade = () => {
                       <Image
                         src={card.imageSrc}
                         roundedCircle
-                        width="400px"
+                        width="350px"
                         alt={`${card.name}'s Image`}
                       />
                       {hoveredCard === index && (

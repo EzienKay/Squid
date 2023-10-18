@@ -1,24 +1,24 @@
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import './App.css';
-import FAQ from './components/Homepage/FAQ/FAQ';
-import Footer from './components/Homepage/Footer/Footer';
+import DashNav from './components/DashNav/DashNav';
 import Home from './components/Homepage/Home/Home';
-import Testimonial from './components/Homepage/Testimonial/Testimonial';
 
-import Feature from './components/Homepage/Feature/Feature';
-import Trade from './components/Homepage/Trade/Trade';
-import Trend from './components/Homepage/Trend/Trend';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+      <Route>    
+        <Route index element={<Home />} /> 
+        <Route path="dashnav" element={<DashNav />} /> 
+      </Route>    
+    
+  )
+)
+ 
 
 function App() {
   return (
     <div className="App"> 
-      <Home /> 
-      <Trend />
-      <Feature />
-      <Trade />    
-      <Testimonial />
-      <FAQ />
-      <Footer />
-      
+      <RouterProvider router={router} />      
     </div>
   );
 }

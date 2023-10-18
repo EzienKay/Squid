@@ -11,7 +11,7 @@ const Trend = () => {
     setShowMore(!showMore);
   };
   return (
-    <section>
+    <section id='trend'>
       <div className='custom-cardt'>
         <div className='heading'>
           <h3 className='text'>Market Trend</h3>
@@ -36,7 +36,7 @@ const Trend = () => {
         </Container>
         <div className="text-center btn-container">
       <button
-        className={`btn btn-custom`}
+        className={`form-btn`}
         onClick={toggleButton}
       >
         {showMore ? 'Show Less Markets' : 'View More Markets'}
