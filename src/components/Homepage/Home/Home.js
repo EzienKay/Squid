@@ -8,7 +8,7 @@ import Features from "../Feature/Feature";
 import Trade from "../Trade/Trade";
 import Testimonial from "../Testimonial/Testimonial";
 import FAQ from "../FAQ/FAQ";
-import Footer from "../Footer/Footer";
+
 
 
 
@@ -99,8 +99,7 @@ const Home = () => {
     <Features />
     <Trade />    
     <Testimonial />
-    <FAQ />
-    <Footer />
+    <FAQ />    
     </div>    
   )
 }

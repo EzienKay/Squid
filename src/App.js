@@ -2,13 +2,14 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import './App.css';
 import DashNav from './components/DashNav/DashNav';
 import Home from './components/Homepage/Home/Home';
+import Footer from './components/Homepage/Footer/Footer';
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
       <Route>    
         <Route index element={<Home />} /> 
-        <Route path="dashnav" element={<DashNav />} /> 
+        <Route path="buysell" element={<DashNav />} /> 
       </Route>    
     
   )
@@ -18,7 +19,8 @@ const router = createBrowserRouter(
 function App() {
   return (
     <div className="App"> 
-      <RouterProvider router={router} />      
+      <RouterProvider router={router} />
+      <Footer />      
     </div>
   );
 }

@@ -26,36 +26,29 @@
     transition: box-shadow .25s ease-in-out;
 }
 
-.filter-sidebar {
-    height: 100%;
-    width: 25%;
-    position: fixed;
-    z-index: 1;
-    top: 71px;
-    left: 0;
-    background-color: #F8F9FA;;
-    overflow-x: hidden;
-    padding-top: 20px;
+
+.in-content {
+    display: flex;
 }
 
-
-
-.filter-sidebar .nav-pills .nav-link.active {
-    background-color: transparent;
-    color: #fc6421;
+.filter-sidebar {
+    width: 80vw;
+    background-color: #F8F9FA;
+   
 }
 
 .filter-sidebar .home-col2 {
     background: none;
-    padding: 1.2rem;
+    padding: 3rem;
     border-radius: none;
     box-shadow: none;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 4.5em;
+	position: sticky;
 }
 
 .filter-sidebar .home-col2 .nav-pills {
     justify-content: center;    
 }
-
-.buysell-kay {
-    margin-left: 25%;
-  }
