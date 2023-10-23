@@ -5,12 +5,13 @@ import Home from './components/Homepage/Home/Home';
 import Footer from './components/Homepage/Footer/Footer';
 
 
+
 const router = createBrowserRouter(
   createRoutesFromElements(
       <Route>    
         <Route index element={<Home />} /> 
-        <Route path="buysell" element={<DashNav />} /> 
-      </Route>    
+        <Route path="buysell" element={<DashNav />} />          
+      </Route>   
     
   )
 )

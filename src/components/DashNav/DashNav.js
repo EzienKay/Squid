@@ -5,6 +5,7 @@ import ezienlogo1 from "../../asset/ezienlogo1.png";
 import BuySell from "../BuySell/BuySell";
 
 
+
 const DashNav = () => {
     const buyOptions = [
         {
@@ -81,12 +82,12 @@ const DashNav = () => {
                                     </Dropdown>
                                 </div>  
                                 <Nav.Link href=""> My Wallet</Nav.Link>                   
-                                <Nav.Link href=""> Create an Offer</Nav.Link>                   
-                            </Nav>
-                            <Button variant="light">Sgin In</Button>
+                                <Nav.Link to="createoffer"> Create an Offer</Nav.Link>                                                   
+                            </Nav>                           
+                            <Button variant="light">Sign in</Button>
                         </Navbar.Collapse>                
-                </Container>
-            </Navbar>
+                </Container>                
+            </Navbar>            
             <Container>
                 <div className="in-content" >
                     <div className="filter-sidebar">
@@ -97,7 +98,7 @@ const DashNav = () => {
                     </div>
                 </div>    
             </Container>
-            
+                        
         </div>    
     </>
   )

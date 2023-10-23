@@ -48,7 +48,7 @@ const Filter = () => {
                                 <Form.Select size="lg">
                                     <option>Nigeria</option>
                                 </Form.Select>                                 
-                                   <Link to="dashnav"> <Button className="form-btn" variant="primary" >find offer</Button> </Link>                               
+                                   <Button className="form-btn" variant="primary" >find offer</Button>                              
                             </Form> 
                             
                         </Tab>                                              
