@@ -48,12 +48,12 @@ const Filter = () => {
                                 <Form.Select size="lg">
                                     <option>Nigeria</option>
                                 </Form.Select>                                 
-                                   <Link to="dashnav"> <Button className="form-btn" variant="primary" >find offer</Button> </Link>                               
+                                   <Button className="form-btn" variant="primary" >find offer</Button>                              
                             </Form> 
                             
                         </Tab>                                              
                     </Tabs>              
-                    <Link to="dashnav" style={{color:"black", marginTop: "15px", display:"block"}}>text nav</Link>
+                    <Link to="buysell" style={{color:"black", marginTop: "15px", display:"block"}}>text nav</Link>
                 </Col>            
     </> 
     
