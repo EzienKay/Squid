@@ -3,6 +3,7 @@ import './App.css';
 import DashNav from './components/DashNav/DashNav';
 import Home from './components/Homepage/Home/Home';
 import Footer from './components/Homepage/Footer/Footer';
+import Walletnotlogin from './components/Wallet/Walletnotlogin';
 
 
 
@@ -11,6 +12,7 @@ const router = createBrowserRouter(
       <Route>    
         <Route index element={<Home />} /> 
         <Route path="buysell" element={<DashNav />} />          
+        <Route path="walletnotlogin" element={<Walletnotlogin />} />          
       </Route>   
     
   )

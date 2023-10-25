@@ -1,0 +1,18 @@
+.notlogin {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.notlogin-info {
+  padding: 40px;
+}
+
+.notlogin-info h3 {
+  font-size: 50px;
+}
+
+.notlogin-info p {
+  font-size: 25px;
+  color: #fc6620;
+}

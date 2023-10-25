@@ -23,6 +23,7 @@ import Convenient from './Convenient.png';
 import Easily from './easily.png';
 import Safe from './safe.png';
 import Instant from './instant.png';
+import WomanWallet from './womanwallet.svg'
 
 export {
   Get,
@@ -49,7 +50,8 @@ export {
   Convenient,
   Easily,
   Safe,
-  Instant
+  Instant,
+  WomanWallet
 }
 
 
