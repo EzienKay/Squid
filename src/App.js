@@ -5,6 +5,7 @@ import Footer from './components/Homepage/Footer/Footer';
 import Navigation from './components/Navigation/Navigation';
 import CreateOffer from './components/CreateAnOffer/CreateOffer';
 import BuySell from './components/BuySell/BuySell';
+import Walletnotlogin from './components/Wallet/Walletnotlogin';
 
 
 
@@ -14,6 +15,7 @@ const router = createBrowserRouter(
          <Route index element={<Home />} />               
          <Route path="createoffer" element={<CreateOffer />} />               
          <Route path="buysell" element={<BuySell />} />               
+         <Route path="wallet" element={<Walletnotlogin />} />               
       </Route>      
   )
 )
