@@ -1,5 +1,5 @@
-import { Button, Col, Form, Tab, Tabs } from "react-bootstrap"
-import { Link } from "react-router-dom"
+import { Col, Form, Tab, Tabs } from "react-bootstrap"
+import { NavLink } from "react-router-dom"
 
 
 const Filter = () => {
@@ -26,7 +26,8 @@ const Filter = () => {
                                 <Form.Select size="lg">
                                     <option>Nigeria</option>
                                 </Form.Select> 
-                                <Button className="form-btn" variant="primary">find offer</Button>
+                                {/* <Button className="form-btn" variant="primary">find offer</Button> */}
+                                <NavLink to="buysell" className="form-btn" >Find Offer</NavLink>
                             </Form> 
 
                         </Tab> 
@@ -48,12 +49,11 @@ const Filter = () => {
                                 <Form.Select size="lg">
                                     <option>Nigeria</option>
                                 </Form.Select>                                 
-                                   <Button className="form-btn" variant="primary" >find offer</Button>                              
-                            </Form> 
-                            
+                                   {/* <Button className="form-btn" variant="primary" >does it apply</Button>  */}
+                                   <NavLink to="buysell" className="form-btn" >Find Offer</NavLink>                                                               
+                            </Form>                   
                         </Tab>                                              
-                    </Tabs>              
-                    <Link to="buysell" style={{color:"black", marginTop: "15px", display:"block"}}>text nav</Link>
+                    </Tabs> 
                 </Col>            
     </> 
     

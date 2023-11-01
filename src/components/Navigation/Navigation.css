@@ -1,0 +1,95 @@
+/* @media (min-width: 992px) */
+@media (min-width: 667px) {
+    .navbar-nav {    
+    margin-inline: auto;  
+    font-size: 1rem;
+    font-weight: 500; 
+    align-items: center; 
+    }
+    .nav-link {
+        margin-inline: 0.8rem;
+    }
+
+    .bg-body-tertiary {
+        border-bottom: 1px solid #d8d8d8; 
+        transition: box-shadow .25s ease-in-out;     
+    }
+}
+
+.bg-body-tertiary {
+    padding-block: 0.5rem;
+    background-color: #ffffff !important; 
+    border-bottom: 1px solid #d8d8d8;      
+}
+
+.me-auto .nav-link.active, .me-auto .nav-link:hover  {
+    color: #fc6421;
+}
+
+.nav-logo {
+    height: 3.5rem;
+}
+
+.logo-img {
+    height: 100%;
+}
+
+
+.nav-pills {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid #c5c5c5;    
+    padding-bottom: 1rem;
+    margin-bottom: 10px;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #fc6421;
+}
+
+.nav-pills .nav-link, .home-form .form-label {
+    border: 1px dashed transparent;
+    padding: 0.3rem 0.7rem;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0.19rem;
+    color: #424242;
+}
+ .nav-item {
+    margin-right: 1rem;
+ }
+
+
+
+/* second nav css */
+.dropdown-div {
+    display: flex;
+    justify-content: center;
+}
+
+.buy-dropdown .btn-success, .sell-dropdown .btn-success {
+    margin-inline: 1rem;    
+    --bs-btn-bg: none; 
+    --bs-btn-color: #000000;
+    --bs-btn-border-color: #fc6421;     
+    --bs-btn-hover-bg: #fe6c2d;
+    --bs-btn-hover-border-color: #ffa58f;    
+    --bs-btn-active-bg: #ffa58f;
+    --bs-btn-active-border-color: #ffad98;    
+    --bs-btn-disabled-bg: #fc6421; 
+    --bs-btn-disabled-border-color: #fc6421; 
+} 
+
+.buy-dropdown .btn, .sell-dropdown .btn {
+    --bs-btn-padding-y: 0.2rem;
+}
+
+
+.dash-nav .bg-body-tertiary {
+    border-bottom: 1px solid #d8d8d8;
+    transition: box-shadow .25s ease-in-out;
+}
+
+

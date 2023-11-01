@@ -1,0 +1,25 @@
+.notlogin {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.notlogin-info {
+  padding: 40px 20px;
+}
+
+.notlogin-info h3 {
+  font-size: 50px;
+}
+
+.notlogin-info p {
+  font-size: 25px;
+  color: #fc6620;
+}
+
+.womanwalet-img {
+  max-width: 100%;
+}
