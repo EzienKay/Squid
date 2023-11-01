@@ -1,18 +1,20 @@
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import './App.css';
-import DashNav from './components/DashNav/DashNav';
 import Home from './components/Homepage/Home/Home';
 import Footer from './components/Homepage/Footer/Footer';
+import Navigation from './components/Navigation/Navigation';
+import CreateOffer from './components/CreateAnOffer/CreateOffer';
+import BuySell from './components/BuySell/BuySell';
 
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-      <Route>    
-        <Route index element={<Home />} /> 
-        <Route path="buysell" element={<DashNav />} />          
-      </Route>   
-    
+      <Route path="/" element={<Navigation />}> 
+         <Route index element={<Home />} />               
+         <Route path="createoffer" element={<CreateOffer />} />               
+         <Route path="buysell" element={<BuySell />} />               
+      </Route>      
   )
 )
  

@@ -203,4 +203,30 @@ nav {
 }
 
 
+/* for filter css */
 
+.in-content, .filt-bs {
+  display: flex;
+}
+
+.filter-sidebar {
+  width: 20vw;
+  background-color: #F8F9FA;
+ 
+}
+
+.filter-sidebar .home-col2 {
+  background: none;
+  padding: 3rem 2rem;
+  border-radius: none;
+  box-shadow: none;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 4.5em;
+position: sticky;
+}
+
+.filter-sidebar .home-col2 .nav-pills {
+  justify-content: center;    
+}
