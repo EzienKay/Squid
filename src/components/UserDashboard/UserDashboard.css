@@ -1,0 +1,225 @@
+.dash {
+  background-color: #f8f8f8;
+  padding: 50px;
+  margin: 50px auto;
+  justify-content: center;
+}
+
+.smaller-div {
+  margin-top: 20%;
+  padding: 10px;
+}
+
+.larger-div {
+  padding: 10px;
+  display: flex;
+}
+
+
+
+
+
+.link {
+  cursor: pointer;
+  transition: background-color 0.3s, font-weight 0.3s;
+  padding: 5px;
+}
+
+.link:hover {
+  color: #e49b93;
+}
+
+.link.selected {
+  background-color: #FE875A;
+  color: black;
+  font-weight: 600; /* Semibold */
+}
+
+
+
+
+
+
+.card-item {
+  margin: 0 10px;
+  flex: 5;
+}
+
+
+.card-item {
+  display: flex;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px; /* Add spacing between icon and text */
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Add spacing between icon and text */
+}
+
+
+.card-item {
+  padding: 20px;
+  background-color: white;
+}
+
+.icon {
+  margin-bottom: 10px;
+}
+
+.account-level-card {
+  display: flex;
+}
+
+.account-level-card .icon {
+  margin-right: 20px; 
+}
+
+.phone-number-card {
+  display: flex;
+}
+
+.phone-number-card .icon {
+  margin-right: 20px; 
+}
+.two-factor-auth-card {
+  display: flex;
+}
+
+.two-factor-auth-card .icon {
+  margin-right: 20px; 
+}
+
+
+.card-content {
+  color:#e49b93;
+  text-decoration: none;
+}
+
+/* .top-info {
+  display: flex;
+  gap: 90px;
+} */
+
+/* .card-row {
+  background-color: green;
+} */
+/* .box-list {
+  margin-top: 60px;
+  color: black
+} */
+
+
+/* .title {
+  padding-top: 50px;
+  width: 300%;
+} */
+
+/* .top-box {
+  display: flex;
+  gap: 30px;
+} */
+
+/* .box-info {
+  display: flex;
+  gap: 10px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 100%;
+} */
+
+/* .main {
+  display: flex;
+  gap: 30px;
+} */
+/* 
+.view {
+  border: 1px solid #d8d8d8;
+  width: 900px;
+  padding: 60px;
+} */
+
+
+/* .fil {
+  border: 1px solid #d8d8d8;
+  padding: 10px;
+} */
+
+/* .card-row {
+  flex-wrap: wrap;
+} */
+
+/* .first-card {
+  border: none; 
+  background-color: transparent;
+  text-align: center;
+} */
+
+/* .view {
+  border: 1px solid #d8d8d8;
+} */
+
+/* .display {
+  border: 1px solid #d8d8d8;
+  background-color: black;
+} */
+/* 
+.bottom-content {
+  display: flex;
+  margin-top: 30px;
+  border: 4px solid red;
+} */
+
+.view-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.small-child {
+  flex: 0.5;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #d8d8d8;
+}
+
+.bigger-child {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #d8d8d8;
+}
+
+.housing {
+  border: 2px solid #d8d8d8;
+  align-items: center;
+  padding: 20px;
+}
+
+.housing-info {
+  border: 1px solid #d8d8d8;
+  padding: 20px;
+}
+
+.offers  {
+  display: flex;
+  gap: 1rem;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
