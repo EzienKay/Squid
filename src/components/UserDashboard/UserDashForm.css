@@ -1,0 +1,15 @@
+.dashform .container {
+  margin-top: 50px;
+}
+
+.dashform .form-group {
+  margin-bottom: 20px;
+}
+
+.dashform label {
+  font-weight: bold;
+}
+
+.dashform button {
+  margin-top: 20px;
+}

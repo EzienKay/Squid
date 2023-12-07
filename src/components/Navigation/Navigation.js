@@ -87,6 +87,7 @@ const Navigation = () => {
                                     </div>
                                     <NavLink to="wallet"  role="button" className="nav-link" tabindex="0">not login Wallet</NavLink>
                                     <NavLink to="walletlogin"  role="button" className="nav-link" tabindex="0">login Wallet</NavLink>
+                                    <NavLink to="userdashboard"  role="button" className="nav-link" tabindex="0">Dashboard</NavLink>
                                 </Nav>                           
                                 <Button variant="light">Sign in</Button>
                             </Navbar.Collapse>                
