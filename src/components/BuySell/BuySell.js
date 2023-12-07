@@ -71,16 +71,16 @@ const BuySell = () => {
                           className={`label button${activeButtonIndex === index ? ' active' : ''}`}
                           onClick={() => handleColumnClick(index)}
                         >
-                          <span>
+                          <div style={{ height: '70%' }} >
                             {typeof button.icon === 'string' ? (
-                              <img src={button.icon} alt={button.label} style={{ width: '10%' }} />
+                              <img src={button.icon} alt={button.label} style={{ height:"100%" }} />
                             ) : (
-                              <button.icon style={{ width: '100%' }} />
+                              <button.icon style={{ height: '100%' }} />
                             )}
-                          </span>
-                          <span style={{ fontSize: '1.0em', marginLeft: '0.2rem' }}>
+                          </div>
+                          <div style={{ fontSize: '1.0em', marginLeft: '0.2rem' }}>
                             {button.label}
-                          </span>
+                          </div>
                         </button>
                       </div>
                     </Col>

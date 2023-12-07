@@ -1,5 +1,6 @@
 .FAQ, .TAW {
     padding: 6rem 1rem;
+    background-color: #ffffff;
 }
 
 .adion {
@@ -21,6 +22,6 @@
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #fc6421;
+    background-color: var(--main-color);
     color: #ffffff;
 }

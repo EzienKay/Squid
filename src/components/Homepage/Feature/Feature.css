@@ -1,8 +1,7 @@
 .custom-card {
   border: none; 
-  background-color: #FAFAFA;
   padding: 6rem 1rem ; 
-  color: #424242;
+  color: var(--text-color);
 }
 
 .heading {
@@ -16,7 +15,7 @@
 .line {
   width: 120px;
   height: 2px;
-  background: linear-gradient(to right, transparent, #FC6520, transparent);
+  background: linear-gradient(to right, transparent, var(--main-color), transparent);
   margin: 0 auto;
   margin-bottom: 1rem;
   display: inline-block;

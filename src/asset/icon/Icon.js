@@ -7,6 +7,11 @@ import Hand from './hand.svg'
 import Bank from  './home.svg';
 import Wallet from './wallet.svg';
 import Credit from './card.svg';
+import Recent from './recent.svg'
+import FaPhone from './phone.svg';
+import Rating from './rating.svg';
+import Status from './status.svg';
+import Invite from './invite.svg';
 
 export {
   mmm,
@@ -14,5 +19,10 @@ export {
   Hand,
   Credit,
   Bank,
-  Wallet
+  Wallet,
+  Recent,
+  FaPhone,
+  Rating,
+  Status,
+  Invite
 }

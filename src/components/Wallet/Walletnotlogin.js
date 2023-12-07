@@ -1,10 +1,10 @@
 import React from 'react'
 import { WomanWallet } from '../../asset/image/Images'
-import './walletnotlogin.css';
+import './wallet.css';
 
 const Walletnotlogin = () => {
   return (
-    <div >
+    <div style={{background: "#ffffff"}} >
       <div className='notlogin'>
         <div className='notlogin-info'>
           <h3>Get your free, <br /> secure bitcoin <br /> wallet</h3>
