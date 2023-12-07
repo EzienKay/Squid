@@ -1,3 +1,9 @@
+.cr8tofa {
+    background: #ffffff;
+    margin-block: -120px;
+    padding-block: 150px;
+}
+
 .cr8toffacontain {
     margin-block: 7rem;
 }
@@ -79,13 +85,13 @@
 }
   
 .tab button:hover {
-    color: #fc6421; 
+    color: var(--main-color); 
     background: #f2f2f2;   
 }
   
 .tab button.active {
     background-color: transparent;    
-    border: 1px solid #fc6421;
+    border: 1px solid var(--main-color);
     position: relative;
 }
 
@@ -132,14 +138,14 @@
     top: 0;
     width: 20px;
     height: 20px;
-    border: 6px solid #fc6421; /* Blue color for border */
+    border: 6px solid var(--main-color); /* Blue color for border */
     border-radius: 50%; /* Makes a circular border */
     background-color: #fff; /* Background color inside the circle */
     transition: border 0.3s ease;
   }
   
 .tabcontent input[type="radio"]:checked + .cr8tlabel:before {
-    border-color: #fc6421; /* Change border color when checked */
+    border-color: var(--main-color); /* Change border color when checked */
 }
 
 .corencyopt h2 {
@@ -169,14 +175,14 @@ a.form-btn.cr8toffasingup {
 
 
 button#dropdown-menu-align-end {
-    --bs-btn-color: #424242;
+    --bs-btn-color: var(--text-color);
     --bs-btn-bg: transparent;
-    --bs-btn-border-color: #fc6421;
-    --bs-btn-hover-color: #fc6421;
+    --bs-btn-border-color: var(--main-color);
+    --bs-btn-hover-color: var(--main-color);
     --bs-btn-hover-bg: transparent;
     --bs-btn-hover-border-color: #c4c3c3;
     --bs-btn-focus-shadow-rgb: 49,132,253;
-    --bs-btn-active-color: #fc6421;
+    --bs-btn-active-color: var(--main-color);
     --bs-btn-active-bg: transparent;
     --bs-btn-active-border-color: #c4c3c3;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);

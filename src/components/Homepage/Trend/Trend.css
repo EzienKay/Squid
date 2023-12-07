@@ -1,8 +1,7 @@
 .custom-cardt {
   border: none;
-  background-color: #fafafa;
   padding: 6rem 1rem;
-  color: #424242;
+  color: var(--text-color);
 }
 
 .heading {
@@ -23,7 +22,7 @@
 .btn-custom:hover,
 .btn-custom:focus {
   color: white;
-  background-color: #fc6520;
+  background-color: var(--main-color);
 } 
 
 .btn-custom::after {
@@ -48,28 +47,28 @@
   border: none;
   background-color: white;
   padding: 6rem 1rem;
-  color: #424242;
+  color: var(--text-color);
 }
 
 .logo1 {
   max-width: 30%;
   margin: 16px 10px;
   border-radius: 10px;
-  border-top: 20px solid #fc6520;
-  border-bottom: 20px solid #fc6520;
+  border-top: 20px solid var(--main-color);
+  border-bottom: 20px solid var(--main-color);
 }
 
 .logo2 {
   max-width: 30%;
   margin: 16px 10px;
-  border-top: 2px solid #fc6520;
-  border-bottom: 2px solid #fc6520;
+  border-top: 2px solid var(--main-color);
+  border-bottom: 2px solid var(--main-color);
 }
 
 .logo3 {
   max-width: 30%;
   margin: 16px 10px;
   border-radius: 10px;
-  border-top: 10px solid #fc6520;
-  border-bottom: 10px solid #fc6520;
+  border-top: 10px solid var(--main-color);
+  border-bottom: 10px solid var(--main-color);
 }

@@ -44,14 +44,14 @@
     padding: 0.63rem 0.88rem;
     margin-top: 0.5rem;
     margin-right: 1rem;
-    background: #fc6421;
+    background: var(--main-color);
     font-size: 0.94rem;
     border: none;
     cursor: pointer;
   }
 
 .email-container-kk button:hover {
-    background: #ffa58f;
+    background: var(--color1);
   }
 
   .footer-form-kk {

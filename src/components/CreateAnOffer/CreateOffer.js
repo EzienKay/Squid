@@ -17,7 +17,7 @@ const CreateOffer = () => {
     
 
   return (
-    <>
+    <div className="cr8tofa">
         <Container className="cr8toffacontain" >
             <Row>
                 <Col sm={8} className="cr8toffagrid" >
@@ -164,7 +164,7 @@ const CreateOffer = () => {
             </Row>           
         </Container>      
         
-    </>
+    </div>
   )
 }
 

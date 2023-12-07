@@ -1,5 +1,5 @@
 import { Button, Container, Dropdown, Nav, Navbar } from "react-bootstrap";
-import ezienlogo1 from "../../asset/ezienlogo1.png";
+import ezienlogo1 from "../../asset/ezienlogo4.png";
 import { Outlet, useLocation } from "react-router";
 import "./Navigation.css"
 import { NavLink } from "react-router-dom";
@@ -27,7 +27,6 @@ const Navigation = () => {
    
 
     const location = useLocation();
-
     // Check if the current location is the home page
     const isHomePage = location.pathname === '/';
 
@@ -86,7 +85,8 @@ const Navigation = () => {
                                                 </Dropdown.Menu>                                                                                    
                                         </Dropdown>
                                     </div>
-                                    <NavLink to="wallet"  role="button" className="nav-link" tabindex="0">My Wallet</NavLink>
+                                    <NavLink to="wallet"  role="button" className="nav-link" tabindex="0">not login Wallet</NavLink>
+                                    <NavLink to="walletlogin"  role="button" className="nav-link" tabindex="0">login Wallet</NavLink>
                                 </Nav>                           
                                 <Button variant="light">Sign in</Button>
                             </Navbar.Collapse>                

@@ -6,24 +6,20 @@
 }
 
 .content h2 {
-  color: #fc6620;
+  color: var(--main-color);
 }
 
 .main-info {
   padding-inline: 40px;
-  margin-block: 7rem;  
-} 
+  margin-block: 7rem;
+}
 
- .item {
+.item {
   margin-bottom: 20px;
-} 
+}
 
 .button-container {
   text-align: left;
-}
-
-.button img {
-  width: 10%;
 }
 
 .button-label {
@@ -31,22 +27,28 @@
   margin-left: 0.6rem;
 }
 
+button.label.button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
 .button {
   background-color: #fff;
   border: 1px solid #fff;
   height: 46px;
   width: 225px;
-  color: #333;
+  color: var(--text-color);
   transition: background-color 0.3s;
   border-radius: 4%;
 }
 
 .button.active {
-  background-color: #b8b4b4;
-  border: 1px solid #b8b4b4;
+  background-color: #f8f8f8;
+  border: 1px solid #f8f8f8;
   width: 65%;
 }
-
 
 .sellers {
   margin-top: 10px;
@@ -86,14 +88,14 @@
 
 .more-content {
   display: flex;
-  border: 1px solid #f0d1c2;
+  border: 1px solid var(--color1);
   margin-top: 50px;
   width: auto;
 }
 
 .content-logo {
-  background-color: #f0d1c2;
-  border: 1px solid #f0d1c2;
+  background-color: var(--color2);
+  border: 1px solid var(--color1);
   padding: 30px;
   width: 19%;
 }
@@ -118,7 +120,7 @@
 
 .small-text {
   margin: 0;
-} 
+}
 
 .content-btn1 {
   background-color: #285d74;
@@ -127,25 +129,24 @@
   width: 6em;
   height: 2em;
   border-radius: 7px;
-} 
+}
 
 .content-btn {
-  background-color: #e3bca9;
+  background-color: var(--color1);
   color: white;
-  border: 1px solid #f0d1c2;
+  border: 1px solid var(--color1);
   width: 10em;
   border-radius: 7px;
 }
 
 .content-btn2 {
-  color: black;
+  color: var(--text-color);
   border: 1px solid #d8d8d8;
   width: 10em;
   height: 2em;
-} */
-
-nav {
-  background-color: #fbfbfb;
+}
+*/ nav {
+  background-color: #f8f8f8;
 }
 
 .card-tex {
@@ -166,7 +167,7 @@ nav {
 .card-tex p:first-of-type {
   font-weight: bold;
   padding-bottom: 3px;
-} 
+}
 
 .refer {
   border: 1px solid #ddd;
@@ -176,9 +177,11 @@ nav {
 
 .ref-logo {
   border: 1px solid #ddd;
-  background-color: #dfb8a7;
-  padding: 31px;
-  width: 108px;
+  background-color: var(--main-color);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .refer-btn1 {
@@ -188,31 +191,34 @@ nav {
   width: 160px;
   height: 2em;
   border-radius: 7px;
-} 
+}
 
- .last-section {
+.last-section {
   margin-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center; 
-} 
+  text-align: center;
+}
 
 .last-content {
   padding: 10%;
 }
 
+.buysell-kay {
+  background-color: #ffffff;
+}
 
 /* for filter css */
 
-.in-content, .filt-bs {
+.in-content,
+.filt-bs {
   display: flex;
 }
 
 .filter-sidebar {
   width: 20vw;
-  background-color: #F8F9FA;
- 
+  background-color: #f8f9fa;
 }
 
 .filter-sidebar .home-col2 {
@@ -224,9 +230,9 @@ nav {
   overflow-y: auto;
   overflow-x: hidden;
   top: 4.5em;
-position: sticky;
+  position: sticky;
 }
 
 .filter-sidebar .home-col2 .nav-pills {
-  justify-content: center;    
+  justify-content: center;
 }
